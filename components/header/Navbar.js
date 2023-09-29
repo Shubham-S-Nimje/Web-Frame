@@ -32,27 +32,27 @@ const Navbar = () => {
         OTHER MENUS
       </p>
       <div className="flex max-md:hidden items-center justify-center">
-        <div class="relative inline-block text-6xl mx-2">
+        <div className="relative inline-block text-6xl mx-2">
           <AiFillBell className="m-2 text-2xl text-[#7879F1]" />
-          <span class="absolute top-0 right-0 px-1 py-0 translate-x-1/6 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
+          <span className="absolute top-0 right-0 px-1 py-0 translate-x-1/6 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
             12
           </span>
         </div>
-        <div class="relative inline-block text-6xl  mx-2">
+        <div className="relative inline-block text-6xl  mx-2">
           <FaUsersRectangle className="m-2 text-2xl text-[#7879F1]" />
-          <span class="absolute top-0 right-0 px-1 py-0 translate-x-1/6 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
+          <span className="absolute top-0 right-0 px-1 py-0 translate-x-1/6 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
             5
           </span>
         </div>
-        <div class="relative inline-block text-6xl  mx-2 font-semibold text-black">
+        <div className="relative inline-block text-6xl  mx-2 font-semibold text-black">
           <BsFillClipboardCheckFill className="m-2 text-2xl text-[#7879F1]" />
-          <span class="absolute top-0 right-0 px-1 py-0 translate-x-1/6 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
+          <span className="absolute top-0 right-0 px-1 py-0 translate-x-1/6 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
             2
           </span>
         </div>
-        <div class="relative inline-block text-6xl  mx-2">
+        <div className="relative inline-block text-6xl  mx-2">
           <BsFillCalendarFill className="m-2 text-2xl text-[#7879F1]" />
-          <span class="absolute top-0 right-0 px-2 py-0 border border-[#0D0B21] translate-x-1/6 bg-[#E328AF] rounded-full text-xs text-white">
+          <span className="absolute top-0 right-0 px-2 py-0 border border-[#0D0B21] translate-x-1/6 bg-[#E328AF] rounded-full text-xs text-white">
             !
           </span>
         </div>

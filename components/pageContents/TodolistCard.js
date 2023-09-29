@@ -4,8 +4,8 @@ import { FiMoreHorizontal, FiClock } from "react-icons/fi";
 const TodolistCard = (props) => {
   return (
     <>
-      {props.tododata.map((data) => (
-        <div className="bg-[#07051A] rounded-xl">
+      {props.tododata.map((data, i) => (
+        <div key={i} className="bg-[#07051A] rounded-xl">
           <div className="flex flex-col w-[280px] h-[180px] bg-[#211A75] items-center mb-4 rounded-xl hover:rotate-12 hover:translate-y-8 hover:translate-x-4">
             <div className="flex justify-between py-4 px-6 w-full">
               <div
@@ -32,10 +32,18 @@ const TodolistCard = (props) => {
 
             <div className="flex justify-between w-[100%] mt-4 pr-6">
               <div className="flex items-center justify-start ">
-                <div className="bg-red-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[-20px] z-20">FM</div>
-                <div className="bg-yellow-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[-10px] z-20">DR</div>
-                <div className="bg-green-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[0px] z-20">HJ</div>
-                <div className="bg-blue-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[0px] z-20">ET</div>
+                <div className="bg-red-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[-20px] z-20">
+                  FM
+                </div>
+                <div className="bg-yellow-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[-10px] z-20">
+                  DR
+                </div>
+                <div className="bg-green-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[0px] z-20">
+                  HJ
+                </div>
+                <div className="bg-blue-800 flex justify-center font-semibold items-center rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[0px] z-20">
+                  ET
+                </div>
               </div>
               <div className="flex gap-1 items-center text-[12px] text-[#A5A5A5]">
                 <FiClock /> Due in 4 days

@@ -59,22 +59,22 @@ const Sidebar = () => {
             </li>
           );
         })}
-        <li class="mt-8 w-48 h-36 relative">
-          <div class="w-48 h-36 bg-gradient-to-br from-[#076ECD] to-[#1CBBFF] rounded-3xl absolute top-0 left-0"></div>
+        <li className="mt-8 w-48 h-36 relative">
+          <div className="w-48 h-36 bg-gradient-to-br from-[#076ECD] to-[#1CBBFF] rounded-3xl absolute top-0 left-0"></div>
 
-          <div class="w-4 h-8 absolute top-6 left-4">
+          <div className="w-4 h-8 absolute top-6 left-4">
             <img src="https://c.animaapp.com/AVj2O5BR/img/vector.svg" />
           </div>
-          <div class="w-4 h-4 absolute bottom-4 left-4">
+          <div className="w-4 h-4 absolute bottom-4 left-4">
             <img src="https://c.animaapp.com/AVj2O5BR/img/vector-1.svg" />
           </div>
-          <div class="absolute w-fit">
+          <div className="absolute w-fit">
             <img
               src="https://c.animaapp.com/AVj2O5BR/img/mask-group@2x.png"
               className="h-36 z-10 ml-4"
             />
           </div>
-          <p class="absolute top-12 mx-4 text-white text-lg font-semibold">
+          <p className="absolute top-12 mx-4 text-white text-lg font-semibold">
             Increase your work with kanban
           </p>
         </li>
