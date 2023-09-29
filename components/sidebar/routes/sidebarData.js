@@ -61,13 +61,13 @@ const routes = [
   {
     path: "/", //no url needed as this has submenu
     icon: <FaFileInvoiceDollar className="mr-2 text-2xl text-[#6418C3]" />, // icon component
-    name: "Invoice",
+    name: "Invoices",
     submenu: <MdNavigateNext className="mr-2 text-2xl text-[#7879F1]" />,
   },
   {
     path: "/", //no url needed as this has submenu
     icon: <RiSettings5Fill className="mr-2 text-2xl text-[#6418C3]" />, // icon component
-    name: "Setting",
+    name: "Settings",
   },
 ];
 
