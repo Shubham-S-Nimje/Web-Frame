@@ -14,11 +14,11 @@ const PageContents = () => {
   return (
     <div className="w-full">
       <Navbar />
-      <div className="m-5">
+      <div className="m-5 mn-md:mx-8">
         <TitleCard />
-        <div className="flex justify-between mt-5">
+        <div className="flex overflow-scroll justify-start gap-5 mt-5">
           <div className="text-white">
-            <div className="flex font-semibold justify-between m-2">
+            <div className="flex font-semibold justify-between my-2 mx-6">
               <p>To-Do List ({TodolistData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +
@@ -28,7 +28,7 @@ const PageContents = () => {
           </div>
 
           <div className="text-white">
-            <div className="flex font-semibold justify-between m-2">
+            <div className="flex font-semibold justify-between my-2 mx-6">
               <p>In Progress ({InprogressData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +
@@ -38,7 +38,7 @@ const PageContents = () => {
           </div>
 
           <div className="text-white">
-            <div className="flex font-semibold justify-between m-2">
+            <div className="flex font-semibold justify-between my-2 mx-6">
               <p>Done ({DoneData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +
@@ -48,7 +48,7 @@ const PageContents = () => {
           </div>
 
           <div className="text-white">
-            <div className="flex font-semibold justify-between m-2">
+            <div className="flex font-semibold justify-between gap my-2 mx-6">
               <p>Revised ({RevisedData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +

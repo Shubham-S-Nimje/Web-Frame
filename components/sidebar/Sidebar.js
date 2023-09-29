@@ -2,13 +2,28 @@ import React from "react";
 import Link from "next/link";
 import { CgMenu } from "react-icons//cg";
 import routes from "./routes/sidebarData";
+import { setSidebar } from "@/store";
+import { useDispatch, useSelector } from "react-redux";
 
 const Sidebar = () => {
+  const dispatch = useDispatch();
+  const sidebarVisible = useSelector((state) => state.sidebar);
+  // console.log(sidebarVisible);
+  const showSidebarHandler = (e) => {
+    e.preventDefault();
+    dispatch(setSidebar(!sidebarVisible));
+  };
   return (
-    <div className="w-[17%] p-8 shadow-2xl h-full bg-[#15132b] text-white">
+    <div
+      className={`max-md:${
+        sidebarVisible === true ? "absolute" : "hidden"
+      } z-50 max-md:w-96 w-[17%] p-8 shadow-[18px_4px_35px_0px_#00000026] min-h-full bg-[#15132b] text-white`}
+    >
       <div className="flex items-center justify-between">
         <h1 className="text-xl font-semibold font-sans">weframetech</h1>
-        <CgMenu className="text-[#7879F1] text-3xl" />
+        <button onClick={showSidebarHandler}>
+          <CgMenu className="text-[#b7b7f3] text-3xl" />
+        </button>
       </div>
 
       <ul>

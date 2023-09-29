@@ -6,7 +6,7 @@ const RevisedCard = (props) => {
     <>
       {props.revisedData.length > 0 ? (
         props.revisedData((data) => (
-          <div className="bg-black rounded-xl">
+          <div className="bg-[#07051A] rounded-xl">
             <div className="flex flex-col w-[280px] h-[180px] bg-[#211A75] items-center mb-4 rounded-xl hover:rotate-12 hover:translate-y-8 hover:translate-x-4">
               <div className="flex justify-between py-4 px-6 w-full">
                 <div
@@ -45,7 +45,7 @@ const RevisedCard = (props) => {
           </div>
         ))
       ) : (
-        <div className="bg-black rounded-xl">
+        <div className="bg-[#07051A] rounded-xl">
         <div className="flex flex-col justify-center w-[230px] h-[90px] bg-[#211A75] items-center mb-4 rounded-xl hover:rotate-12 hover:translate-y-8 hover:translate-x-4">
           <div className="w-[200px] h-[60px] bg-[#15132B] rounded-xl border-dashed border-[#7879F1] text-[#7879F1] text-[12px] flex justify-center items-center font-bold border-2">
             Move card here
