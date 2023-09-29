@@ -21,18 +21,30 @@ const Navbar = () => {
         OTHER MENUS
       </p>
       <div className="flex items-center justify-center">
-        <span className="cursor-pointer">
-          <AiFillBell className="m-3 text-3xl text-[#7879F1]" />
-        </span>
-        <span className="cursor-pointer">
-          <FaUsersRectangle className="m-3 text-3xl text-[#7879F1]" />
-        </span>
-        <span className="cursor-pointer">
-          <BsFillClipboardCheckFill className="m-3 text-3xl text-[#7879F1]" />
-        </span>
-        <span className="cursor-pointer">
-          <BsFillCalendarFill className="m-3 text-3xl text-[#7879F1]" />
-        </span>
+        <div class="relative inline-block text-6xl">
+          <AiFillBell className="m-2 text-3xl text-[#7879F1]" />
+          <span class="absolute top-0 right-0 px-2 py-1 translate-x-1/5 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
+            12
+          </span>
+        </div>
+        <div class="relative inline-block text-6xl">
+          <FaUsersRectangle className="m-2 text-3xl text-[#7879F1]" />
+          <span class="absolute top-0 right-0 px-2 py-1 translate-x-1/5 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
+            5
+          </span>
+        </div>
+        <div class="relative inline-block text-6xl font-semibold text-black">
+          <BsFillClipboardCheckFill className="m-2 text-3xl text-[#7879F1]" />
+          <span class="absolute top-0 right-0 px-2 py-1 translate-x-1/5 bg-[#5ECFFF] rounded-full text-xs font-semibold text-black">
+            2
+          </span>
+        </div>
+        <div class="relative inline-block text-6xl">
+          <BsFillCalendarFill className="m-2 text-3xl text-[#7879F1]" />
+          <span class="absolute top-0 right-0 px-3 py-1 border border-[#0D0B21] translate-x-1/5 bg-[#E328AF] rounded-full text-xs text-white">
+            !
+          </span>
+        </div>
       </div>
       <div className="flex items-center justify-center bg-[#211a75] text-white px-4 py-3 mx-8 rounded-full">
         <GiUsaFlag className="text-xl mx-2" />

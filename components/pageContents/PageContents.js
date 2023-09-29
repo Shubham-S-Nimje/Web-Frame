@@ -18,7 +18,7 @@ const PageContents = () => {
         <TitleCard />
         <div className="flex justify-between mt-5">
           <div className="text-white">
-            <div className="flex justify-between m-2">
+            <div className="flex font-semibold justify-between m-2">
               <p>To-Do List ({TodolistData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +
@@ -28,7 +28,7 @@ const PageContents = () => {
           </div>
 
           <div className="text-white">
-            <div className="flex justify-between m-2">
+            <div className="flex font-semibold justify-between m-2">
               <p>In Progress ({InprogressData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +
@@ -38,7 +38,7 @@ const PageContents = () => {
           </div>
 
           <div className="text-white">
-            <div className="flex justify-between m-2">
+            <div className="flex font-semibold justify-between m-2">
               <p>Done ({DoneData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +
@@ -48,7 +48,7 @@ const PageContents = () => {
           </div>
 
           <div className="text-white">
-            <div className="flex justify-between m-2">
+            <div className="flex font-semibold justify-between m-2">
               <p>Revised ({RevisedData[0].masseges})</p>
               <div className="w-[30px] h-[30px] bg-[#6418C3] rounded-lg text-[20px] flex justify-center items-center font-bold cursor-pointer ml-2">
                 +

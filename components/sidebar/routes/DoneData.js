@@ -3,21 +3,21 @@ const DoneData = [
     masseges: 3,
     data: [
       {
-        title: "Information",
+        title: "BUGS FIXING",
         description:
-          "Create sign up sheet for holiday student/parent conferences.",
+          "Action Button needed for Google Maps visits.",
         color: "#FF4A55",
       },
       {
-        title: "Information",
+        title: "Database",
         description:
-          "Create sign up sheet for holiday student/parent conferences.",
+          "Update new instructor photos.",
         color: "#38E25D",
       },
       {
-        title: "Information",
+        title: "Instructor Meeting",
         description:
-          "Create sign up sheet for holiday student/parent conferences.",
+          "Review/correct yellow belt techniques.",
         color: "#E328AF",
       },
     ],

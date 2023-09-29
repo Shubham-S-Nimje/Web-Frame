@@ -3,21 +3,21 @@ const TodolistData = [
     masseges: 24,
     data: [
       {
-        title: "Information",
+        title: "Important",
         description:
           "Create sign up sheet for holiday student/parent conferences.",
-        color: "#FFAB2D",
+        color: "#FB923C",
       },
       {
-        title: "Information",
+        title: "Instructor Meeting",
         description:
-          "Create sign up sheet for holiday student/parent conferences.",
+          "Plan holiday demonstration program. Create outline.",
         color: "#E328AF",
       },
       {
-        title: "Information",
+        title: "Databse",
         description:
-          "Create sign up sheet for holiday student/parent conferences.",
+          "Determine how many boards need to be ordered for testing and demo.",
         color: "#38E25D",
       },
     ],
@@ -25,3 +25,4 @@ const TodolistData = [
 ];
 
 export default TodolistData;
+

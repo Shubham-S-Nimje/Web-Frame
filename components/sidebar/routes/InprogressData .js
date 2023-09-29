@@ -3,15 +3,15 @@ const InprogressData = [
     masseges: 2,
     data: [
       {
-        title: "Information",
+        title: "Video",
         description:
-          "Create sign up sheet for holiday student/parent conferences.",
+          "Create sparring tutorial video for the weekly class.",
         color: "#5ECFFF",
       },
       {
-        title: "Information",
+        title: "BUGS FIXING",
         description:
-          "Create sign up sheet for holiday student/parent conferences.",
+          "Payment gateway needs reauthorization.",
         color: "#FF4A55",
       },
     ],

@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillArrowLeftCircleFill, BsThreeDotsVertical } from "react-icons/bs";
 import { FaUserPlus } from "react-icons/fa6";
 import { BiSolidCommentDetail } from "react-icons/bi";
-import { FaUserCircle } from "react-icons/fa";
+import { PiCircleDashed } from "react-icons/pi";
 
 const TitleCard = () => {
   return (
@@ -25,7 +25,7 @@ const TitleCard = () => {
             <p className="text-xs text-gray-500 mt-1 text-end">Sunnyvale,Ca</p>
           </span>
           <div className="bg-gray-300 rounded-xl mx-2">
-            <FaUserCircle className="m-2 text-3xl text-[#7879F1]" />
+            <PiCircleDashed className="m-2 text-3xl text-[#7879F1]" />
           </div>
           <BsThreeDotsVertical className="ml-5 text-gray-300 text-lg" />
         </div>
@@ -36,7 +36,7 @@ const TitleCard = () => {
             <div className="bg-[#c4c4c4] rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[-20px] z-20"></div>
             <div className="bg-[#c4c4c4] rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[-10px] z-20"></div>
             <div className="bg-[#c4c4c4] rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[0px] z-20"></div>
-            <div className="flex items-center justify-center text-white bg-[#e328af] rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[10px] text-[13px] z-20">
+            <div className="flex items-center justify-center text-white bg-[#E328AF] rounded-full w-8 h-8 border-[#15132b] border-2 relative right-[10px] text-[13px] z-20">
               5+
             </div>
             <div className=" bg-[#c4c4c4] rounded-full w-8 h-8 border-[#15132b] border-2 absolute z-10 "></div>

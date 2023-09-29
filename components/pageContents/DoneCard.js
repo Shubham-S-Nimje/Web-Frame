@@ -5,10 +5,11 @@ const DoneCard = (props) => {
   return (
     <>
       {props.doneData.map((data) => (
+        <div className="bg-black rounded-xl">
         <div className="flex flex-col w-[280px] h-[180px] bg-[#211A75] items-center mb-4 rounded-xl hover:rotate-12 hover:translate-y-8 hover:translate-x-4">
           <div className="flex justify-between py-4 px-6 w-full">
             <div
-              className={`flex text-[${data.color}] justify-center items-center text-[12px]`}
+              className={`flex text-[${data.color}] font-semibold justify-center items-center text-[12px]`}
             >
               <div
                 className={`w-[8px] h-[8px] rounded-full mr-2 bg-[${data.color}]`}
@@ -20,7 +21,7 @@ const DoneCard = (props) => {
             </div>
           </div>
 
-          <div className="text-[14px] w-full pl-6">{data.descrption}</div>
+          <div className="text-[14px] w-full font-semibold pl-6">{data.description}</div>
           <div className="w-[80%] h-[7px] bg-[#1E1C3A] mt-5 rounded-xl">
             <div
               className={`w-[30%] h-[7px] rounded-xl bg-[${data.color}]`}
@@ -38,6 +39,7 @@ const DoneCard = (props) => {
               <FiClock /> Due in 4 days
             </div>
           </div>
+        </div>
         </div>
       ))}
     </>
