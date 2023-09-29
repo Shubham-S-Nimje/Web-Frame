@@ -4,9 +4,9 @@ import { FaUserPlus } from "react-icons/fa6";
 import { BiSolidCommentDetail } from "react-icons/bi";
 import { FaUserCircle } from "react-icons/fa";
 
-const MainCard = () => {
+const TitleCard = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-[#15132b] rounded-lg text-white m-5 px-6 py-4">
+    <div className="w-full p-5 flex flex-col items-center justify-center bg-[#15132b] rounded-lg text-white">
       <div className="w-full flex items-center justify-between">
         <div className="flex flex-col items-start justify-start my-3">
           <span className="flex items-center justify-center">
@@ -68,4 +68,4 @@ const MainCard = () => {
   );
 };
 
-export default MainCard;
+export default TitleCard;

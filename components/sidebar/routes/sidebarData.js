@@ -18,55 +18,55 @@ const routes = [
     name: "Dashboard",
   },
   {
-    path: "/", // url
-    icon: <MdMarkEmailUnread className="mr-2 text-2xl text-gray-600" />, // icon component
+    path: "/",
+    icon: <MdMarkEmailUnread className="mr-2 text-2xl text-gray-600" />,
     name: "Email",
     messages: 10,
-    submenu: <BiChevronDown className="mr-2 text-2xl text-[#7879F1]" />, // name that appear in Sidebar
+    submenu: <BiChevronDown className="mr-2 text-2xl text-[#7879F1]" />,
   },
   {
-    path: "/", // url
-    icon: <AiFillWechat className="mr-2 text-2xl text-[#7879F1] " />, // icon component
-    name: "Chat", // name that appear in Sidebar
+    path: "/",
+    icon: <AiFillWechat className="mr-2 text-2xl text-[#7879F1] " />,
+    name: "Chat",
   },
   {
-    path: "/", // url
-    icon: <AiOutlineAppstore className="mr-2 text-2xl text-[#6418C3] " />, // icon component
+    path: "/",
+    icon: <AiOutlineAppstore className="mr-2 text-2xl text-[#6418C3] " />,
     name: "Kanban",
-    submenu: <MdNavigateNext className="mr-2 text-2xl text-[#7879F1] " />, // name that appear in Sidebar
+    submenu: <MdNavigateNext className="mr-2 text-2xl text-[#7879F1] " />,
   },
   {
-    path: "/", // url
-    icon: <MdContactPage className="mr-2 text-2xl text-[#7879F1] " />, // icon component
+    path: "/",
+    icon: <MdContactPage className="mr-2 text-2xl text-[#7879F1] " />,
     name: "Contact",
-    notification: "New", // name that appear in Sidebar
+    notification: "New",
   },
   {
-    path: "/", // url
-    icon: <BsFillCalendarFill className="mr-2 text-2xl text-[#7879F1] " />, // icon component
-    name: "Calender", // name that appear in Sidebar
+    path: "/",
+    icon: <BsFillCalendarFill className="mr-2 text-2xl text-[#7879F1] " />,
+    name: "Calender",
   },
 
   {
-    path: "/", //no url needed as this has submenu
-    icon: <FaUsersRectangle className="mr-2 text-2xl  text-gray-600" />, // icon component
+    path: "/",
+    icon: <FaUsersRectangle className="mr-2 text-2xl  text-gray-600" />,
     name: "Courses",
     submenu: <MdNavigateNext className="mr-2 text-2xl text-[#7879F1]" />,
   },
   {
-    path: "/", //no url needed as this has submenu
-    icon: <AiTwotoneShop className="mr-2 text-2xl text-gray-600" />, // icon component
+    path: "/",
+    icon: <AiTwotoneShop className="mr-2 text-2xl text-gray-600" />,
     name: "Shop",
   },
   {
-    path: "/", //no url needed as this has submenu
-    icon: <FaFileInvoiceDollar className="mr-2 text-2xl text-[#6418C3]" />, // icon component
+    path: "/",
+    icon: <FaFileInvoiceDollar className="mr-2 text-2xl text-[#6418C3]" />,
     name: "Invoices",
     submenu: <MdNavigateNext className="mr-2 text-2xl text-[#7879F1]" />,
   },
   {
-    path: "/", //no url needed as this has submenu
-    icon: <RiSettings5Fill className="mr-2 text-2xl text-[#6418C3]" />, // icon component
+    path: "/",
+    icon: <RiSettings5Fill className="mr-2 text-2xl text-[#6418C3]" />,
     name: "Settings",
   },
 ];
